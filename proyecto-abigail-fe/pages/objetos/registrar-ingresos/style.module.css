@@ -1,0 +1,27 @@
+.contenedor{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ margin-bottom: 20px;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 5px;
+}
+
+.conteinerTop{
+    display: flex;
+    flex-direction: column;
+    
+    min-width: 200px;
+    max-width: 500px;
+}
+
+
+.conteinerTop button{
+    background-color: transparent;
+    border: transparent;
+}

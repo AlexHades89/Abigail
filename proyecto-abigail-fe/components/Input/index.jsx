@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 
-export default function Input({ label = "", type = "text", name = "", placeholder = "", required = false }) {
+export default function Input({ label = "", type = "text", name = "", placeholder = "", maxLength="100", required = false }) {
   return (
     <div className={styles.inputContainer}>
       {label && (
@@ -15,6 +15,7 @@ export default function Input({ label = "", type = "text", name = "", placeholde
         id={name}
         placeholder={placeholder}
         autocomplete="off"
+        maxLength={maxLength}
         required={required}
       />
     </div>

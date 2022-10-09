@@ -66,6 +66,11 @@ export const NAV_BAR_OPTIONS = [
         title: "Registrar Propiedades",
         path: "/objetos/propiedades",
       },
+      {
+        id: "o3",
+        title: "Registrar Ingresos",
+        path: "/objetos/registrar-ingresos",
+      },
     ],
   },
 ];
